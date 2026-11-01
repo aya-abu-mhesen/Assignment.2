@@ -1,0 +1,420 @@
+@media (max-width: 1200px) {
+
+
+    .navbar {
+        padding: 5px 60px 0 60px;
+    }
+
+    .right-nav {
+        padding-right: 0;
+    }
+
+
+    .header .header-left {
+        padding: 40px;
+    }
+
+    .header .header-right {
+        padding: 40px 40px 40px 0;
+    }
+
+    .header h2 {
+        font-size: 40px;
+    }
+
+    .key-features1,
+    .key-features2,
+    .key-features3,
+    .key-features4,
+    .key-features5,
+    .key-features6 {
+        width: 30%;
+    }
+
+
+    .rv-grid,
+    .rp-grid,
+    .ft-container {
+        width: 90%;
+    }
+
+    .rp-card {
+        padding: 18px;
+    }
+
+    .rp-card h3 {
+        font-size: 19px;
+    }
+
+    .rp-desc {
+        font-size: 15px;
+    }
+
+    .rp-bottom {
+        gap: 8px;
+    }
+
+    .rp-price {
+        font-size: 22px;
+    }
+
+    .rp-btn {
+        font-size: 14px;
+        padding: 8px 14px;
+    }
+}
+
+
+
+@media (max-width: 992px) {
+
+
+    .navbar {
+        padding: 5px 30px 0 30px;
+    }
+
+    .right-nav ul {
+        gap: 20px;
+        font-size: 15px;
+    }
+
+    .header {
+        flex-direction: column;
+        height: auto;
+        padding-top: 110px;
+    }
+
+    .header .header-left {
+        padding: 30px;
+    }
+
+    .header .header-right {
+        padding: 10px 30px 40px;
+    }
+
+
+    .key-features {
+        padding: 40px 20px;
+    }
+
+    .in {
+        padding: 30px 0;
+    }
+
+    .key-features1,
+    .key-features2,
+    .key-features3,
+    .key-features4,
+    .key-features5,
+    .key-features6 {
+        width: 48%;
+    }
+
+    .key-features .inn {
+        padding: 10px 0 30px;
+    }
+
+    .key-features .end {
+        padding: 35px;
+    }
+
+    .rv-grid {
+        flex-direction: column;
+        width: 90%;
+        gap: 24px;
+    }
+
+    .rv-side {
+        position: static;
+        width: 100%;
+    }
+
+    .rv-list {
+        width: 100%;
+    }
+
+
+    .rp-grid {
+        flex-wrap: wrap;
+        width: 90%;
+    }
+
+    .rp-card {
+        flex: none;
+        width: 48%;
+        padding: 22px;
+    }
+
+    .rp-card h3 {
+        font-size: 22px;
+    }
+
+    .rp-desc {
+        font-size: 16px;
+    }
+
+    .rp-price {
+        font-size: 26px;
+    }
+
+    .rp-btn {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+
+
+    .ft-container {
+        width: 90%;
+    }
+
+    .ft-grid {
+        flex-wrap: wrap;
+        gap: 40px 20px;
+    }
+
+    .ft-col {
+        flex: none;
+        width: 47%;
+    }
+}
+
+@media (max-width: 768px) {
+
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        padding: 8px 20px;
+    }
+
+    .left-nav h2 {
+        margin: 8px 0;
+        font-size: 22px;
+    }
+
+    .right-nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px 20px;
+        margin: 0 0 8px;
+        padding: 0;
+        font-size: 14px;
+    }
+
+
+    .header {
+        padding-top: 170px;
+    }
+
+    .header h2 {
+        font-size: 36px;
+    }
+
+    .header .salary {
+        flex-wrap: wrap;
+        row-gap: 8px;
+    }
+
+    .key-features1,
+    .key-features2,
+    .key-features3,
+    .key-features4,
+    .key-features5,
+    .key-features6 {
+        width: 100%;
+    }
+
+    .key-features h3,
+    .key-features h4 {
+        line-height: 1.4;
+    }
+
+    .key-features .end {
+        flex-direction: column;
+        gap: 25px;
+        text-align: center;
+    }
+
+    .key-features .end .end-left {
+        text-align: center;
+    }
+
+    .key-features .end .end-left .a,
+    .key-features .end .end-left .b,
+    .key-features .end .end-left .c {
+        line-height: 1.5;
+    }
+
+
+    .key-features h2,
+    .rv-head h2,
+    .rp-head h2 {
+        font-size: 30px;
+    }
+
+    .key-features p,
+    .rv-head p,
+    .rp-head p {
+        font-size: 18px;
+    }
+
+    .key-features,
+    .rv-section,
+    .rp-section {
+        scroll-margin-top: 100px;
+    }
+
+    .ft-bottom {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+}
+
+
+
+@media (max-width: 576px) {
+
+
+    .right-nav ul {
+        gap: 6px 14px;
+        font-size: 13px;
+    }
+
+
+    .header {
+        padding-top: 175px;
+    }
+
+    .header .header-left {
+        padding: 15px;
+    }
+
+    .header .header-right {
+        padding: 10px 15px 30px;
+    }
+
+    .inner {
+        padding: 12px;
+    }
+
+    .header h2 {
+        font-size: 30px;
+    }
+
+    .header p {
+        font-size: 17px;
+        line-height: 28px;
+    }
+
+    .header .salary span.new {
+        font-size: 30px;
+    }
+
+    .header .salary span.old {
+        font-size: 20px;
+    }
+
+
+    button.one,
+    button.two {
+        width: 100%;
+    }
+
+    button img {
+        width: 20px;
+    }
+
+    .key-features {
+        padding: 30px 15px;
+        margin-top: 40px;
+    }
+
+    .key-features h2,
+    .rv-head h2,
+    .rp-head h2 {
+        font-size: 26px;
+    }
+
+    .key-features1 img,
+    .key-features2 img,
+    .key-features3 img,
+    .key-features4 img,
+    .key-features5 img,
+    .key-features6 img {
+        width: 56px;
+    }
+
+    .key-features .end {
+        padding: 28px 20px;
+    }
+
+    .key-features .end .end-left .b {
+        font-size: 22px;
+    }
+
+    .rv-section {
+        padding: 50px 0;
+    }
+
+    .rv-grid {
+        width: 92%;
+    }
+
+    .rv-side {
+        padding: 22px;
+    }
+
+    .rv-score {
+        font-size: 52px;
+    }
+
+    .rv-card {
+        padding: 24px 20px;
+    }
+
+    .rv-card-top {
+        flex-direction: column;
+        gap: 14px;
+    }
+
+    .rv-meta {
+        flex-direction: row;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .rp-section {
+        padding: 50px 0 60px;
+    }
+
+    .rp-head {
+        margin-bottom: 35px;
+    }
+
+    .rp-card {
+        width: 100%;
+    }
+
+    .rp-img-box img {
+        height: 230px;
+    }
+
+    .rp-more {
+        font-size: 16px;
+        padding: 16px 30px;
+    }
+
+
+    .ft-section {
+        padding: 50px 0 30px;
+    }
+
+    .ft-col {
+        width: 100%;
+    }
+
+    .ft-pay {
+        gap: 12px;
+    }
+}
